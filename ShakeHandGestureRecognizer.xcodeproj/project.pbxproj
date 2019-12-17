@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C43F22E23A9013200ADFC11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43F22D23A9013200ADFC11 /* AppDelegate.swift */; };
+		3C43F23023A9013200ADFC11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43F22F23A9013200ADFC11 /* ViewController.swift */; };
+		3C43F23323A9013200ADFC11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C43F23123A9013200ADFC11 /* Main.storyboard */; };
+		3C43F23523A9013300ADFC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C43F23423A9013300ADFC11 /* Assets.xcassets */; };
+		3C43F23823A9013300ADFC11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C43F23623A9013300ADFC11 /* LaunchScreen.storyboard */; };
+		3C43F24323A9013300ADFC11 /* ShakeHandGestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43F24223A9013300ADFC11 /* ShakeHandGestureRecognizerTests.swift */; };
+		3C43F24E23A9013300ADFC11 /* ShakeHandGestureRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43F24D23A9013300ADFC11 /* ShakeHandGestureRecognizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C43F23F23A9013300ADFC11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C43F22223A9013200ADFC11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C43F22923A9013200ADFC11;
+			remoteInfo = ShakeHandGestureRecognizer;
+		};
+		3C43F24A23A9013300ADFC11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C43F22223A9013200ADFC11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C43F22923A9013200ADFC11;
+			remoteInfo = ShakeHandGestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C43F22A23A9013200ADFC11 /* ShakeHandGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeHandGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C43F22D23A9013200ADFC11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C43F22F23A9013200ADFC11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C43F23223A9013200ADFC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C43F23423A9013300ADFC11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C43F23723A9013300ADFC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C43F23923A9013300ADFC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C43F23E23A9013300ADFC11 /* ShakeHandGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeHandGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C43F24223A9013300ADFC11 /* ShakeHandGestureRecognizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeHandGestureRecognizerTests.swift; sourceTree = "<group>"; };
+		3C43F24423A9013300ADFC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C43F24923A9013300ADFC11 /* ShakeHandGestureRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeHandGestureRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C43F24D23A9013300ADFC11 /* ShakeHandGestureRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeHandGestureRecognizerUITests.swift; sourceTree = "<group>"; };
+		3C43F24F23A9013300ADFC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C43F22723A9013200ADFC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C43F23B23A9013300ADFC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C43F24623A9013300ADFC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C43F22123A9013200ADFC11 = {
+			isa = PBXGroup;
+			children = (
+				3C43F22C23A9013200ADFC11 /* ShakeHandGestureRecognizer */,
+				3C43F24123A9013300ADFC11 /* ShakeHandGestureRecognizerTests */,
+				3C43F24C23A9013300ADFC11 /* ShakeHandGestureRecognizerUITests */,
+				3C43F22B23A9013200ADFC11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C43F22B23A9013200ADFC11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C43F22A23A9013200ADFC11 /* ShakeHandGestureRecognizer.app */,
+				3C43F23E23A9013300ADFC11 /* ShakeHandGestureRecognizerTests.xctest */,
+				3C43F24923A9013300ADFC11 /* ShakeHandGestureRecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C43F22C23A9013200ADFC11 /* ShakeHandGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				3C43F22D23A9013200ADFC11 /* AppDelegate.swift */,
+				3C43F22F23A9013200ADFC11 /* ViewController.swift */,
+				3C43F23123A9013200ADFC11 /* Main.storyboard */,
+				3C43F23423A9013300ADFC11 /* Assets.xcassets */,
+				3C43F23623A9013300ADFC11 /* LaunchScreen.storyboard */,
+				3C43F23923A9013300ADFC11 /* Info.plist */,
+			);
+			path = ShakeHandGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		3C43F24123A9013300ADFC11 /* ShakeHandGestureRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C43F24223A9013300ADFC11 /* ShakeHandGestureRecognizerTests.swift */,
+				3C43F24423A9013300ADFC11 /* Info.plist */,
+			);
+			path = ShakeHandGestureRecognizerTests;
+			sourceTree = "<group>";
+		};
+		3C43F24C23A9013300ADFC11 /* ShakeHandGestureRecognizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C43F24D23A9013300ADFC11 /* ShakeHandGestureRecognizerUITests.swift */,
+				3C43F24F23A9013300ADFC11 /* Info.plist */,
+			);
+			path = ShakeHandGestureRecognizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C43F22923A9013200ADFC11 /* ShakeHandGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C43F25223A9013300ADFC11 /* Build configuration list for PBXNativeTarget "ShakeHandGestureRecognizer" */;
+			buildPhases = (
+				3C43F22623A9013200ADFC11 /* Sources */,
+				3C43F22723A9013200ADFC11 /* Frameworks */,
+				3C43F22823A9013200ADFC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeHandGestureRecognizer;
+			productName = ShakeHandGestureRecognizer;
+			productReference = 3C43F22A23A9013200ADFC11 /* ShakeHandGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C43F23D23A9013300ADFC11 /* ShakeHandGestureRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C43F25523A9013300ADFC11 /* Build configuration list for PBXNativeTarget "ShakeHandGestureRecognizerTests" */;
+			buildPhases = (
+				3C43F23A23A9013300ADFC11 /* Sources */,
+				3C43F23B23A9013300ADFC11 /* Frameworks */,
+				3C43F23C23A9013300ADFC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C43F24023A9013300ADFC11 /* PBXTargetDependency */,
+			);
+			name = ShakeHandGestureRecognizerTests;
+			productName = ShakeHandGestureRecognizerTests;
+			productReference = 3C43F23E23A9013300ADFC11 /* ShakeHandGestureRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C43F24823A9013300ADFC11 /* ShakeHandGestureRecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C43F25823A9013300ADFC11 /* Build configuration list for PBXNativeTarget "ShakeHandGestureRecognizerUITests" */;
+			buildPhases = (
+				3C43F24523A9013300ADFC11 /* Sources */,
+				3C43F24623A9013300ADFC11 /* Frameworks */,
+				3C43F24723A9013300ADFC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C43F24B23A9013300ADFC11 /* PBXTargetDependency */,
+			);
+			name = ShakeHandGestureRecognizerUITests;
+			productName = ShakeHandGestureRecognizerUITests;
+			productReference = 3C43F24923A9013300ADFC11 /* ShakeHandGestureRecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C43F22223A9013200ADFC11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Test;
+				TargetAttributes = {
+					3C43F22923A9013200ADFC11 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3C43F23D23A9013300ADFC11 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3C43F22923A9013200ADFC11;
+					};
+					3C43F24823A9013300ADFC11 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3C43F22923A9013200ADFC11;
+					};
+				};
+			};
+			buildConfigurationList = 3C43F22523A9013200ADFC11 /* Build configuration list for PBXProject "ShakeHandGestureRecognizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C43F22123A9013200ADFC11;
+			productRefGroup = 3C43F22B23A9013200ADFC11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C43F22923A9013200ADFC11 /* ShakeHandGestureRecognizer */,
+				3C43F23D23A9013300ADFC11 /* ShakeHandGestureRecognizerTests */,
+				3C43F24823A9013300ADFC11 /* ShakeHandGestureRecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C43F22823A9013200ADFC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C43F23823A9013300ADFC11 /* LaunchScreen.storyboard in Resources */,
+				3C43F23523A9013300ADFC11 /* Assets.xcassets in Resources */,
+				3C43F23323A9013200ADFC11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C43F23C23A9013300ADFC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C43F24723A9013300ADFC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C43F22623A9013200ADFC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C43F23023A9013200ADFC11 /* ViewController.swift in Sources */,
+				3C43F22E23A9013200ADFC11 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C43F23A23A9013300ADFC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C43F24323A9013300ADFC11 /* ShakeHandGestureRecognizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C43F24523A9013300ADFC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C43F24E23A9013300ADFC11 /* ShakeHandGestureRecognizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C43F24023A9013300ADFC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C43F22923A9013200ADFC11 /* ShakeHandGestureRecognizer */;
+			targetProxy = 3C43F23F23A9013300ADFC11 /* PBXContainerItemProxy */;
+		};
+		3C43F24B23A9013300ADFC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C43F22923A9013200ADFC11 /* ShakeHandGestureRecognizer */;
+			targetProxy = 3C43F24A23A9013300ADFC11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C43F23123A9013200ADFC11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C43F23223A9013200ADFC11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C43F23623A9013300ADFC11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C43F23723A9013300ADFC11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C43F25023A9013300ADFC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C43F25123A9013300ADFC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C43F25323A9013300ADFC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShakeHandGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shigas.ShakeHandGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C43F25423A9013300ADFC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShakeHandGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shigas.ShakeHandGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C43F25623A9013300ADFC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShakeHandGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shigas.ShakeHandGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeHandGestureRecognizer.app/ShakeHandGestureRecognizer";
+			};
+			name = Debug;
+		};
+		3C43F25723A9013300ADFC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShakeHandGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shigas.ShakeHandGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeHandGestureRecognizer.app/ShakeHandGestureRecognizer";
+			};
+			name = Release;
+		};
+		3C43F25923A9013300ADFC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShakeHandGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shigas.ShakeHandGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShakeHandGestureRecognizer;
+			};
+			name = Debug;
+		};
+		3C43F25A23A9013300ADFC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShakeHandGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shigas.ShakeHandGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShakeHandGestureRecognizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C43F22523A9013200ADFC11 /* Build configuration list for PBXProject "ShakeHandGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C43F25023A9013300ADFC11 /* Debug */,
+				3C43F25123A9013300ADFC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C43F25223A9013300ADFC11 /* Build configuration list for PBXNativeTarget "ShakeHandGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C43F25323A9013300ADFC11 /* Debug */,
+				3C43F25423A9013300ADFC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C43F25523A9013300ADFC11 /* Build configuration list for PBXNativeTarget "ShakeHandGestureRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C43F25623A9013300ADFC11 /* Debug */,
+				3C43F25723A9013300ADFC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C43F25823A9013300ADFC11 /* Build configuration list for PBXNativeTarget "ShakeHandGestureRecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C43F25923A9013300ADFC11 /* Debug */,
+				3C43F25A23A9013300ADFC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C43F22223A9013200ADFC11 /* Project object */;
+}
