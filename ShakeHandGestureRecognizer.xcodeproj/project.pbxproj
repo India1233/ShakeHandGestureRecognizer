@@ -14,6 +14,7 @@
 		3C43F23823A9013300ADFC11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C43F23623A9013300ADFC11 /* LaunchScreen.storyboard */; };
 		3C43F24323A9013300ADFC11 /* ShakeHandGestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43F24223A9013300ADFC11 /* ShakeHandGestureRecognizerTests.swift */; };
 		3C43F24E23A9013300ADFC11 /* ShakeHandGestureRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43F24D23A9013300ADFC11 /* ShakeHandGestureRecognizerUITests.swift */; };
+		3C43F25C23A9014600ADFC11 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43F25B23A9014600ADFC11 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C43F24923A9013300ADFC11 /* ShakeHandGestureRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeHandGestureRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C43F24D23A9013300ADFC11 /* ShakeHandGestureRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeHandGestureRecognizerUITests.swift; sourceTree = "<group>"; };
 		3C43F24F23A9013300ADFC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C43F25B23A9014600ADFC11 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3C43F22D23A9013200ADFC11 /* AppDelegate.swift */,
 				3C43F22F23A9013200ADFC11 /* ViewController.swift */,
+				3C43F25B23A9014600ADFC11 /* Color+Extension.swift */,
 				3C43F23123A9013200ADFC11 /* Main.storyboard */,
 				3C43F23423A9013300ADFC11 /* Assets.xcassets */,
 				3C43F23623A9013300ADFC11 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C43F23023A9013200ADFC11 /* ViewController.swift in Sources */,
+				3C43F25C23A9014600ADFC11 /* Color+Extension.swift in Sources */,
 				3C43F22E23A9013200ADFC11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZB6PL47P;
 				INFOPLIST_FILE = ShakeHandGestureRecognizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +456,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZB6PL47P;
 				INFOPLIST_FILE = ShakeHandGestureRecognizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
